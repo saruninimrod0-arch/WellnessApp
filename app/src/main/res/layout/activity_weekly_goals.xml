@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#3AB791"
+
+    android:layout_height="match_parent"
+    tools:context=".ProgressActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:text="Weekly Goals"
+            android:textAlignment="center"
+            android:textColor="#0345D9"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="center"
+            android:src="@drawable/image2" />
+
+
+        <TextView
+            android:id="@+id/recipeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+
+            android:text="Weekly Goals\n\n1. Meal Prep\nPlan and prepare your healthy meals for the week.\n\n2. Stay Hydrated\nDrink at least 2 liters of water every single day.\n\n3. Daily Exercise\nComplete 30 minutes of physical activity daily.\n\n4. Better Sleep\nAim for 7-8 hours of quality sleep each night.\n\n5. Reduce Sugar\nLimit processed sweets and sugary drinks.\n\n6. Morning Routine\nStart each day with stretching or meditation.\n\n7. Track Progress\nKeep a journal of your meals and workouts.\n\n8. Digital Detox\nReduce screen time an hour before going to bed.\n\n9. Learn Something New\nRead a few pages of a book or listen to a podcast.\n\n10. Self-Reflection\nReview your wins and areas to improve on Sunday."
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</ScrollView>

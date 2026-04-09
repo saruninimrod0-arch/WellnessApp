@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E6B40"
+
+    tools:context=".MeditationActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditation Recipes"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:textColor="#0345D9"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="center"
+            android:src="@drawable/image5" />
+
+        <TextView
+            android:id="@+id/recipesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="#FFC107"
+            android:text="Meditation Guide\n\n1. Mindfulness Meditation\nFocuses on the breath to stay present; helps reduce anxiety, improve focus, and manage negative emotions.\n\n2. Body Scan Meditation\nSystematically scanning the body for tension; excellent for physical relaxation, pain management, and improving sleep quality.\n\n3. Guided Imagery\nVisualizing peaceful scenes or places; helps settle a busy mind, reduces overstimulation, and builds mental resilience.\n\n4. Loving-Kindness (Metta)\nFocuses on developing compassion toward oneself and others; effectively increases empathy and reduces social bias.\n\n5. Mantra Meditation\nRepeating a calming word or phrase (like 'Om'); anchors the mind to quiet inner chatter and improve concentration.\n\n6. Movement Meditation\nMindful activities like Yoga, Tai Chi, or walking; great for those who find sitting still difficult and want to ground their energy.\n\n7. Zen Meditation (Zazen)\nEmphasizes strict posture and observing thoughts without attachment; fosters deep mental discipline and self-discovery.\n\n8. Yoga Nidra\nA state between wakefulness and sleep; highly effective for recovery from burnout, chronic fatigue, and insomnia.\n\n9. Focused Attention\nConcentrating on a single object like a candle flame; strengthens the 'muscle' of focus and trains the brain to ignore distractions.\n\n10. Transcendental Meditation\nA silent mantra-based technique practiced twice daily; scientifically linked to lower blood pressure and reduced stress hormones."
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</ScrollView >

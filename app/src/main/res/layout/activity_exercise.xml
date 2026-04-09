@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#9B4764"
+
+    android:layout_height="match_parent"
+    tools:context="ExerciseActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍉Exercise Recipes"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:textColor="#16951C"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/image2"
+            android:scaleType="center"/>
+
+        <TextView
+            android:id="@+id/recipesText"
+            android:layout_width="match_parent"
+            android:textColor="#E9D30C"
+            android:layout_height="wrap_content"
+            android:text="Exercise Guide\n\n1. Brisk Walking\nA great low-impact cardio workout; improves heart health and boosts your mood.\n\n2. Push-Ups\nStrengthens the chest, shoulders, and triceps using just your body weight.\n\n3. Squats\nTargets the glutes and quadriceps; essential for building lower body strength and stability.\n\n4. Plank\nEngages the entire core; improves posture and reduces the risk of back pain.\n\n5. Jumping Jacks\nA full-body warm-up that increases heart rate and improves coordination.\n\n6. Lunges\nFocuses on leg strength and balance; helps tone the hamstrings and glutes.\n\n7. Yoga Poses\nCombines stretching with strength; increases flexibility and reduces mental stress.\n\n8. High-Intensity Interval Training (HIIT)\nShort bursts of intense activity; burns a high amount of calories in a short time.\n\n9. Cycling\nExcellent for cardiovascular fitness and building leg muscles without straining joints.\n\n10. Swimming\nA full-body workout that builds endurance and muscle strength while being gentle on the body."
+
+            android:textSize="16sp"
+            android:padding="16dp"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
