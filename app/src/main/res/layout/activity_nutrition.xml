@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:background="#F44336"
+    android:background="#5A05F2"
 
     android:layout_height="match_parent"
     tools:context=".NutritionActivity">
@@ -24,7 +24,7 @@
             android:textStyle="bold"
             android:background="@drawable/shape"
 
-            android:textColor="#0345D9"/>
+            android:textColor="#1ACA21"/>
 
 
         <ImageView
@@ -37,10 +37,22 @@
             android:id="@+id/recipesText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nutrition Guide\n\n1. Fruit Salad\nRich in Vitamin C and fiber; provides quick energy from natural sugars.\n\n2. Grilled Chicken\nExcellent source of lean protein for muscle repair and B-vitamins for metabolism.\n\n3. Vegetable Stir Fry\nHigh in fiber and phytonutrients like beta-carotene (from carrots) and Vitamin K (from broccoli).\n\n4. Oatmeal Breakfast\nPacked with soluble fiber (beta-glucan) which helps lower cholesterol and stabilizes blood sugar.\n\n5. Avocado Toast\nProvides heart-healthy monounsaturated fats, potassium, and Vitamin E.\n\n6. Boiled Eggs\nA complete protein source containing all essential amino acids and Vitamin D.\n\n7. Smoothie Bowl\nConcentrated source of antioxidants and probiotics if using yogurt; high in various vitamins.\n\n8. Brown Rice and Beans\nA plant-based complete protein high in complex carbohydrates and iron.\n\n9. Baked Fish\nRich in Omega-3 fatty acids for heart and brain health, plus high-quality protein.\n\n10. Greek Yogurt with Honey\nHigh in calcium and protein for bone health; contains probiotics for better digestion."
+            android:textColor="#F7F8F8"
+            android:text="🍉Nutrition Guide\n\n1. Fruit Salad\nRich in Vitamin C and fiber; provides quick energy from natural sugars.\n\n2. Grilled Chicken\nExcellent source of lean protein for muscle repair and B-vitamins for metabolism.\n\n3. Vegetable Stir Fry\nHigh in fiber and phytonutrients like beta-carotene (from carrots) and Vitamin K (from broccoli).\n\n4. Oatmeal Breakfast\nPacked with soluble fiber (beta-glucan) which helps lower cholesterol and stabilizes blood sugar.\n\n5. Avocado Toast\nProvides heart-healthy monounsaturated fats, potassium, and Vitamin E.\n\n6. Boiled Eggs\nA complete protein source containing all essential amino acids and Vitamin D.\n\n7. Smoothie Bowl\nConcentrated source of antioxidants and probiotics if using yogurt; high in various vitamins.\n\n8. Brown Rice and Beans\nA plant-based complete protein high in complex carbohydrates and iron.\n\n9. Baked Fish\nRich in Omega-3 fatty acids for heart and brain health, plus high-quality protein.\n\n10. Greek Yogurt with Honey\nHigh in calcium and protein for bone health; contains probiotics for better digestion."
 
             android:textSize="16sp"
             android:padding="16dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rewardAd"
+            android:text="Get reward"
+            android:textSize="32sp"
+            android:textColor="#E91E63"
+            android:backgroundTint="#CDDC39"/>
+
 
 
 
